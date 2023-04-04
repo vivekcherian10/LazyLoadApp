@@ -14,18 +14,64 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #242323;
+  background-image: url('./assets/nav_bar.png');
+  min-height: 156px;
+  margin-left: 30px;
+  margin-right: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: sticky;
+  top:0;
 }
 
 .App-link {
   color: #61dafb;
+}
+.card-item{
+  row-gap: 90px;
+  column-gap: 30px;
+  margin-top: 36px;
+  margin-left: 23px;
+  margin-right: 30px;
+}
+.nav-button{
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  
+}
+.back-button{
+  position: absolute;
+  left: -25px;
+  top: 6px;
+  width: 100px;
+}
+.search-button{
+  position: absolute;
+  top: 6px;
+  width: 100px;
+  right: 0;
+}
+.nav-tittle{
+  position: relative;
+  top: 38px;
+}
+.text-input{
+  position: relative;
+  top: 38px;
+  color: black;
+}
+.list-name{
+  overflow: hidden;
+    max-height: 45px;
 }
 
 @keyframes App-logo-spin {
