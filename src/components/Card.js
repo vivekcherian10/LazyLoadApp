@@ -9,7 +9,7 @@ export const Card = ({ data }) => {
     <div className="w-full rounded overflow-hidden shadow-lg m-2">
       <img
         className="w-full h-64 object-center"
-        src={`/${data["poster-image"]}`}
+        src={`./${data["poster-image"]}`}
         alt=""
         onError={onImageError}
       />
